@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #302b4e;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-image: url("https://travistidwell.com/presentations/meanapp/images/formio-tree.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 70%;
+ 
+}
+
+.header {
+    margin-bottom: 30px;
+}
+.logo {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 30px;
+    color: white;
+    display: inline;
+}
+
+.red {
+    color: #ff3a72;
+    display: inline;
+}
+
+
+.navs {
+    display: inline;
+    float: right;
+    padding: 10px;
+
+}
+
+.navs a {
+    text-decoration: none;
+    font-family: 'Quicksand';
+    color: white;
+    padding: 10px;
+    margin: 20px;   
+}
+
+.lang {
+    color: white;
+}
+.lang  a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand';
+}
+
+.active {
+    background-color: #ff3a72;
+    
+}
+
+.sectionOne {
+
+    width: 50%;
+    height: auto;
+    float: left;
+
+
+}
+
+.sectionTwo {
+  
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+.label {
+    font-size: 90px;
+    font-family: 'Baloo Tammudu 2';
+    font-weight: 800;
+    line-height: 100%;
+    color: white;
+}
+
+.redOne {
+    color: #e20846;
+}
+
+.text {
+    font-family: 'Quicksand';
+    color: white;
+    line-height: 190%;
+}
+
+
+.moreBtn {
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 30px;
+  
+}
+
+.redOne a{
+    text-decoration: none;
+    color: #e20846;
+
+}
+
+.socials {
+    margin-top: 50px;
+}
+
+.text-soc {
+    display: inline;
+    padding: 5px;
+}
+
+.facebook, .insta, .telegram{
+    display: inline;
+    color: white;
+    font-family: 'Quicksand';
+    padding-right: 10px;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    float: right;
+    font-family: 'Quicksand';
+    color: white;
+    margin: 20px;
+    padding: 15px;
+}
+
+.card-number {
+    font-size: 50px;
+}
+
+.card-label {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-background {
+    background-color: #221e367c;
+}
+
+@media only screen and (max-width: 1080px) {
+    body {
+      background-image: none;
+    }
+  }
+
+  @media only screen and (max-width: 870px) {
+    .sectionOne, .sectionTwo {
+      float: none;
+      width: 100%;
+    }
+
+    .sectionTwo {
+        margin-top: 70px;
+    }
+
+    .card {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+  }
+
+  @media only screen and (max-width: 920px) {
+    .navs {
+        display: none;
+    }
+
+    @media only screen and (max-width: 430px) {
+        .label {
+            font-size: 70px;
+        }
+    
+  }
+
+  @media only screen and (max-width: 900px) {
+    .socials {
+        position: fixed;
+        display: block;
+        background-color: #e20846;
+        padding: 15px;
+        bottom: 0;
+        right: 0;
+    }
+    .facebook. .insta, .telegram {
+        float: none;
+    }
+    .text-soc  {
+        display: none;
+    }
+
+}
